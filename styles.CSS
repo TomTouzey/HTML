@@ -32,7 +32,9 @@ h2 {
 header {
   background-color: midnightblue;
   width: 200px;
-
+}
+.recherche {
+  color: white
 }
 a:link {
   color: rgb(255, 255, 255);
