@@ -39,8 +39,12 @@ header {
 a:link {
   color: rgb(255, 255, 255);
 }
-.formations ul {
+.Formation ul {
     color: navy;
+}
+
+.Formation {
+  color : black
 }
 
 h3 {color: navy;}
