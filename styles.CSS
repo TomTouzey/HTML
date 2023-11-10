@@ -20,25 +20,29 @@ body {
 h1 {
   color: #ffffff;
   font-family: "Righteous", sans-serif;
-  font-size: 500%;
+  font-size: 350%;
+  
 }
 h2 {
   color: #ffffff;
-  font-size: 230%;
+  font-size: 175%;
+ 
 }
 
 header {
   background-color: midnightblue;
-  max-width: 300px;
+  width: 200px;
+
 }
 a:link {
   color: rgb(255, 255, 255);
 }
-ul {
-  background-color: #7f85f5;
-
+a :visited {
+  color: rgb(255, 0, 0);
 }
-
+a :active {
+  color: red;
+}
 .formations ul {
     color: navy;
 }
@@ -51,4 +55,9 @@ h3 {color: navy;}
 
 div.photo {flex}
 div.presentation {flex}
-.contact {position: sticky ;}
+.Contact {
+  position: sticky ;
+  bottom : 1rem ;
+  background-color : midnightblue ;
+  color : white
+}
