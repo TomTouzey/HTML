@@ -46,18 +46,23 @@ a :active {
 .formations ul {
     color: navy;
 }
+
 h3 {color: navy;}
-.MCCD {color: black;}
+.MCCD {color: rgb(0, 0, 0);}
 .presentation {
   color: white;
   font-size: 22px;
 }
 
-div.photo {flex}
-div.presentation {flex}
+
 .Contact {
   position: sticky ;
-  bottom : 1rem ;
-  background-color : midnightblue ;
+  bottom : 0rem ;
+  background-color :white ;
   color : white
+}
+.MCCD {color : black}
+.toph {
+  position: sticky ;
+  bottom : 0rem ;
 }
