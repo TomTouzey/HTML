@@ -37,12 +37,6 @@ header {
 a:link {
   color: rgb(255, 255, 255);
 }
-a :visited {
-  color: rgb(255, 0, 0);
-}
-a :active {
-  color: red;
-}
 .formations ul {
     color: navy;
 }
@@ -54,15 +48,9 @@ h3 {color: navy;}
   font-size: 22px;
 }
 
-
 .Contact {
   position: sticky ;
   bottom : 0rem ;
-  background-color :white ;
-  color : white
-}
+  background-color: midnightblue;
+  color : rgb(255, 255, 255)}
 .MCCD {color : black}
-.toph {
-  position: sticky ;
-  bottom : 0rem ;
-}
