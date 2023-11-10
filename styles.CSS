@@ -1,9 +1,13 @@
 body {
   font-family: "Righteous", sans-serif;
   background-color: #7f85f5;
+  display: inline;
+  display: flex;
 }
-
-.MCCD ::before {
+.MCCD {
+  list-style-type: none;
+}
+.MCCD li::before {
     content:"";
     display: inline-block;
     width: 20px;
@@ -11,25 +15,28 @@ body {
     background-image: url(https://em-content.zobj.net/source/apple/237/books_1f4da.png);
     background-size: contain;
     border-radius: 50%;
-    vertical-align: middle;}
+    vertical-align: middle;
+}
 h1 {
-  color: #7f85f5;
+  color: #ffffff;
   font-family: "Righteous", sans-serif;
   font-size: 500%;
 }
 h2 {
-  color: #7f85f5;
+  color: #ffffff;
   font-size: 230%;
 }
 
 header {
   background-color: midnightblue;
+  max-width: 300px;
 }
 a:link {
-  color: rgb(255, 237, 137);
+  color: rgb(255, 255, 255);
 }
 ul {
-  color: midnightblue;
+  background-color: #7f85f5;
+
 }
 
 .formations ul {
@@ -37,3 +44,11 @@ ul {
 }
 h3 {color: navy;}
 .MCCD {color: black;}
+.presentation {
+  color: white;
+  font-size: 22px;
+}
+
+div.photo {flex}
+div.presentation {flex}
+.contact {position: sticky ;}
